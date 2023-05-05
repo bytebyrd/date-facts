@@ -20,4 +20,21 @@ span{
     font-size: 2.6rem;
     font-weight: 500;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 
+footer > p > a{
+    text-decoration: none;
+    color: rgb(25, 109, 111); 
+}
+
+footer > p > a:hover{
+    color: rgb(232, 204, 72); 
+}

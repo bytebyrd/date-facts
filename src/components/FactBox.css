@@ -38,9 +38,9 @@
 }
 
 button{
+    font-family: 'cafeandbrewery';
     position: relative;
     z-index: 7;
-    font-family: 'sans-serif';
     font-weight: 700;
     font-size: 1.8rem;
     border: none;
@@ -48,8 +48,9 @@ button{
     cursor: pointer;
     margin-bottom: 20px;
     background: transparent;
-    padding: 10px 5px;
+    padding: 5px 20px;
     transition: transform .3s ease;
+    color: black;
 }
 
 button::before{
@@ -62,7 +63,8 @@ button::before{
     content: "";
     height: 100%;
     width: 100%;
-    background: #B86B28;
+    background: rgb(232, 204, 72);
+    
 }
 
 button:hover{

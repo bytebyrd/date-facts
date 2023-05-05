@@ -46,6 +46,9 @@ class App extends Component {
                         onDateChange={this.onDateChange}
                         />
                     <FactBox fact={this.state.fact} onGetFact={this.getFact} />
+                    <footer>
+                        <p>Powered by: <a href="http://numbersapi.com/" target="_blank">http://numbersapi.com/</a></p>
+                    </footer>
                 </div>
 
             </div>

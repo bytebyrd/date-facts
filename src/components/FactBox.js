@@ -6,7 +6,7 @@ const FactBox = ({ fact, onGetFact }) => {
             <h2 className='f3'>Did you know?:</h2>
             <h3 className='f4'>{fact}</h3>
             <div>
-                <button onClick={onGetFact}>Give me another</button>
+                <button onClick={onGetFact}>Next</button>
             </div>
 
         </div>
