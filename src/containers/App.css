@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'cafeandbrewery';
+    src: url('./cafeandbrewery.ttf');
+}
+
+h1, h2, span {
+    font-family: "cafeandbrewery";   
+}
+
+h1{
+    font-size: 4.8rem;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 20px 0;
+    background: black;
+    color: white;
+}
+
+span{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+

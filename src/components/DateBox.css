@@ -1,0 +1,73 @@
+.date-box{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.date-box__date{
+    position: relative;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    color: white;
+}
+
+.date-box__date::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    opacity: .3;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: black;
+    box-shadow: 10px 0px 24px black, inset 10px 0px 16px black;
+  
+}
+
+.datepicker-toggle{
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.datepicker-toggle-button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../public/images/calendar.svg');
+    stroke: red;
+    transition: all .3s ease;
+}
+
+.datepicker-input{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.datepicker-toggle:hover > .datepicker-toggle-button{
+    transform: scale(1.1);
+}
+
+.datepicker-input::-webkit-calendar-picker-indicator{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
